@@ -5,20 +5,27 @@
 
 ## Проекты
 
-### [Vyverka](https://github.com/Gefest100500/vyverka) — Android, Kotlin
+### [Vyverka](https://github.com/Gefest100500/Vyverka) — Android, Kotlin
 Приложение для выверки местоположений, паллет и товара в пути. Выгрузки из учётной системы
 подтягиваются из GitHub, результат возвращается в Excel с подсветкой и уходит письмом.
 
 `Kotlin` `Jetpack Compose` `CameraX` `ML Kit` `SQLite` `свой парсер и генератор XLSX`
+📦 [Скачать APK](https://github.com/Gefest100500/Vyverka/releases/latest)
 
 ### [CoffeMod](https://github.com/Gefest100500/Coffeemod) — Android, Kotlin
 Инвентаризация небольшой кофейни: товары и группы, сканирование штрихкодов, приход/расход,
-пересчёт с черновиком, PDF-этикетки с QR, отчёты и импорт продаж из CSV.
-Полностью офлайн.
+пересчёт с черновиком, PDF-этикетки с QR, отчёты и импорт продаж из CSV. Полностью офлайн.
 
 `Kotlin` `Compose` `CameraX` `ML Kit` `ZXing` `SQLite`
+📦 [Скачать APK](https://github.com/Gefest100500/Coffeemod/releases/latest)
 
-### Core V3.0 — Python, PyQt6 (приватный, корпоративный)
+### [Nexus](https://github.com/Gefest100500/Nexus) — Electron, JavaScript
+Хаб командировок ревизора: данные корпоративного портала по поездкам, отелям и документам
+в одном окне. Без npm-зависимостей, собственный парсер XLSX.
+
+`Electron` `JavaScript` `Node.js` `Windows` `zero dependencies`
+
+### [Core V3.0](https://github.com/Gefest100500/Core-v3) — Python, PyQt6
 Desktop-инструмент аудитора: обработка выгрузок из 1С, АСУС и Тандер Склад, анализ квантов,
 свод ОС/МБП, проверка Брак/Утиль, дашборд по письмам инвентаризации, табель ревизора.
 733+ автотестов.
@@ -28,7 +35,8 @@ Desktop-инструмент аудитора: обработка выгрузо
 ## Стек
 
 - **Мобильная разработка:** Kotlin, Jetpack Compose, CameraX, ML Kit, SQLite
-- **Автоматизация:** Python, pandas, openpyxl, PyQt6
+- **Десктоп:** Electron, JavaScript, PyQt6
+- **Автоматизация:** Python, pandas, openpyxl
 - **Данные:** SQLite, Excel (чтение и генерация без сторонних библиотек), CSV
 - **Инструменты:** Git, GitHub Actions, Android SDK, Gradle
 
